@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body, html{
+    height: 100%;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgb(0,0,0,0.75),rgb(0,0,0,75)),url(background.jpg);
+    background-size:cover;
+    background-position: center;
+}
+.banner2{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgb(0,0,0,0.75),rgb(0,0,0,75)),url(background2.jpg);
+    background-size:cover;
+    background-position: center;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+   
+}
+.banner3{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgb(0,0,0,0.75),rgb(0,0,0,75)),url(background3.jpg);
+    background-size:cover;
+    background-position: center;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 230px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #00a0fd;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.2s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.navbar2{
+    width: 50%;
+    margin: auto;
+    padding: 20px 0;
+    justify-content: space-between;
+}
+.logo{
+    width: 230px;
+    cursor: pointer;
+}
+.navbar2 ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar2 ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+.navbar2 ul li::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #00a0fd;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.2s;
+}
+.navbar2 ul li:hover::after{
+    width: 100%;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+
+.content h1{
+    font-size: 80px;
+    margin-top: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 5px;
+    stroke: black;
+}
+.content p{
+    margin: 20px auto;
+    
+    line-height: 30px;
+}
+.content2{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+
+.content2 h1{
+    font-size: 95px;
+    margin-top: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 5px;
+    stroke: black;
+}
+.content2 p{
+    margin: 15px auto;  
+    line-height: 30px;
+    font-size: 20px;
+    text-shadow: #131212;
+}
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #ffffff;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+span{
+    background: #00a0fd;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.2s;
+}
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: none;
+}
+.bold{
+    font-weight: bold;
+}
+
+
+.harga{
+    color: rgb(2, 2, 2);
+    font-size: 22px;
+}
+
+
+.produk{
+    float: left;
+    display: grid;
+    padding: 50px;
+    box-shadow: 0 4px 8px 0 #00a0fd;
+    background-color: #ffffff86;
+    height: 600px;
+    max-width: 300px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+  }
+.produk button {
+    border: none;
+    padding: 12px;
+    color: #ffffff5b;
+    background-color: #ffffff5b;
+    text-align: center;
+    cursor: pointer;
+    width: 70%;
+    font-size: 18px;
+}
+.produk p button{
+    color: rgb(2, 2, 2);
+    border-color: #ffffff5b;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div.horizontalgap {
+    float: left;
+    overflow: hidden;
+    height: 1px;
+    width: 0px;
+}
+div.verticalgap {
+    float: left;
+    overflow: hidden;
+    height: 0px;
+    width: 1px;
+}    
+.bannerapacoba{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgb(0,0,0,0.75),rgb(0,0,0,75)),url(background3.jpg);
+    background-size:cover;
+    background-position: center;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+
+  }
+.halamanproduk{
+    text-align: left;
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff86;
+}
+.halamanproduk h1{
+    margin: 20 20 0 0;
+    min-width: 10px;
+}
+
+
+.buttonstore
+{
+    text-align: center;
+    float: left;
+    
+}
+   /* Style the container with a rounded border, grey background and some padding and margin */
+.container {
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0;
+  }
+  
+  /* Clear floats after containers */
+  .container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Float images inside the container to the left. Add a right margin, and style the image as a circle */
+  .container img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  /* Increase the font-size of a span element */
+  .container span {
+    font-size: 20px;
+    margin-right: 15px;
+  }
+  
+  /* Add media queries for responsiveness. This will center both the text and the image inside the container */
+  @media (max-width: 500px) {
+    .container {
+      text-align: center;
+    }
+  
+    .container img {
+      margin: auto;
+      float: none;
+      display: block;
+    }
+  } 
+.kotakmap{
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    float: left;
+    height: 20px;
+    width: 0px;
+    padding: 20px;
+    margin: center;
+}
+iframe{
+    position: center;
+    align-items: center;
+    float: left;
+    
+  }
